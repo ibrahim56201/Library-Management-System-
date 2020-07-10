@@ -1,0 +1,47 @@
+<html>
+
+<title>
+
+	search page
+</title>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<div align="center">
+	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
+</div>
+<div>
+<ul>
+	<li><a class="activate" href="homeadmin.html">Home</a></li>
+  <li style="float:right"><a  href="logoutadmin.php">Logout</a></li>
+	<li style="float:right"><a href="contact.html">Contact</a></li>
+	<li style="float:right"><a  href="about.html">About</a></li>
+	
+</ul>
+</div>
+	<div class="sidenav">
+  <a href="add.html">Add Book</a>
+  <a href="remove.html">Remove Book</a>
+  <a href="searchadmin.html">Search Book</a>
+  <a href="blockstudent.php">Delete student</a>
+</div>
+<form id="container" action="search1.php" method="POST">
+	<div align="center">
+	<h2>Search book</h2>
+	</div>
+	
+<input type="text"  placeholder="book name" name="bookname">
+	
+<input type="text" placeholder="book author" name="bookauthor">
+
+<button type="submit" class="button">Search</button>
+
+</form>
+
+</body>
+
+</html>

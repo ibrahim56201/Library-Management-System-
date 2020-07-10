@@ -1,0 +1,41 @@
+<html>
+
+<title>
+
+	Add book
+</title>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<div align="center">
+	<h1>LIBRARY MANAGEMENT SYSTEM</h1>
+</div>
+<div>
+<ul>
+	<li><a class="activate" href="homeadmin.html">Home</a></li>
+  <li style="float:right"><a  href="logoutadmin.php">Logout</a></li>
+  <li style="float:right"><a href="contact.html">Contact</a></li>
+  <li style="float:right"><a  href="about.html">About</a></li>
+	
+</ul>
+</div>
+	<div class="sidenav">
+  <a href="add.html">Add Book</a>
+  <a href="remove.html">Remove Book</a>
+  <a href="searchadmin.html">Search Book</a>
+  <a href="blockstudent.php">Delete student</a>
+</div>
+<div id="container">
+<form action="add.php" method="POST">
+	<h2 align="center">Add book</h2>
+ 	<input type = "text" placeholder="book name" name="bookname" required/> <br/> 
+    <input type = "text" placeholder="book author" name="bookauthor" required/> <br/> 
+	<input type = "submit" class="button" value="Add">
+</form>
+</body>
+
+</html>
